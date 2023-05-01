@@ -5,15 +5,15 @@ Use Python as the basis for a web server. Instead of building it from scratch, w
 
 ![License Badge](https://img.shields.io/badge/license-MIT-success?style=plastic)
 
-The homepage of Just Tech News resembles the following image:
+The homepage of Just Tech News without any content:
 
 ![Screenshot 2023-05-01 090001](https://user-images.githubusercontent.com/109435666/235472531-3ea73c7d-35ba-4171-bbf8-159bc95fc706.png)
 
-The following image shows the Just Tech News homepage without any content:
+The following image shows "hello world" route:
 
 ![Screenshot 2023-05-01 084233](https://user-images.githubusercontent.com/109435666/235472642-32d108e4-2faf-4a52-99d8-d29942bf9225.png)
 
-The following image shows the dashboard page with a form for creating a new post:
+The following image shows where a user can sign up/log in:
 
 ![Screenshot 2023-05-01 090012](https://user-images.githubusercontent.com/109435666/235472680-a7d77ecc-16f2-4f79-97b1-4163c30d5dc7.png)
 
