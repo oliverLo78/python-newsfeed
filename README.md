@@ -112,10 +112,29 @@ In the root directory of your ``` python-newsfeed project ```, run the following
 
 The ```python -m venv ``` command (or ``` python3 -m venv ```, if your computer requires it) uses Python's built-in ``` venv ``` module to create a new directory. 
 
-In this case, the new directory is also called venv. The venv directory holds all the files that make a virtual environment possible.
+In this case, the new directory is also called ``` venv ```. The ``` venv ``` directory holds all the files that make a virtual environment possible.
 
 In VS Code, you can expand the ``` venv ``` directory to see what it contains, as shown in the following image
 
 ![image](https://user-images.githubusercontent.com/109435666/235469899-20455c92-732a-46c8-a4fc-7e1d74ff6a82.png)
+
+## Important
+
+On Windows, Git Bash can't start the virtual environment. Even if the ``` python ``` command works in Git Bash, the virtual environment won't. 
+
+You'll need to use Windows PowerShell instead.
+
+If you're using Windows, run the following command from the root directory of your project:
+
+``` .\venv\Scripts\activate ```
+
+Once the virtual environment activates, run the following command to install Flask:
+
+``` pip install flask ```
+
+You can verify the installation by inspecting the content of the ``` Lib\site-packages ``` directory in the venv directory, as the following image shows:
+
+![Screenshot 2023-05-01 VS Code flask](https://user-images.githubusercontent.com/109435666/235471289-6de52545-a5cc-4d4e-9d66-9e92800f3404.png)
+
 
 
