@@ -17,6 +17,10 @@ The following image shows where a user can sign up/log in:
 
 ![Screenshot 2023-05-01 090012](https://user-images.githubusercontent.com/109435666/235472680-a7d77ecc-16f2-4f79-97b1-4163c30d5dc7.png)
 
+The following image shows where a user can create a post:
+
+![Screenshot 2023-05-01 Create a post ](https://user-images.githubusercontent.com/109435666/235473883-b54665ba-ccaf-406e-a29b-b3aaea4d39e3.png)
+
 ## Table of Contents
 * [Installation](#installation)
 * [Usage](#usage)
