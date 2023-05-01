@@ -9,7 +9,7 @@ Use Python as the basis for a web server. Instead of building it from scratch, w
 * [Installation](#installation)
 * [Usage](#usage)
 * [Contibution](#contribution)
-* [Tests](#contribution)
+* [Tests](#tests)
 * [Questions](#questions)
 * [License](#license)
 
@@ -54,3 +54,6 @@ In the dropdown that appears, select "Terminal: Select Default Shell". This will
 
 Select "Windows PowerShell". VS Code will now use PowerShell instead of Git Bash whenever you open the integrated terminal.
 
+## Clone the Repo and Create Branches
+
+On your computer, clone the repository using ``` git clone ```
