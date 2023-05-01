@@ -86,5 +86,4 @@ htmlcov/
 dist/
 build/
 *.egg-info/
-
 ```
