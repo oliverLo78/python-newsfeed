@@ -87,3 +87,35 @@ dist/
 build/
 *.egg-info/
 ```
+We just added files and directories to the .gitignore file that the official Flask documentation recommends ignoring.
+
+## Set Up the Python Environment
+
+You should already have the latest version of Python installed on your computer. To verify that, run the following command from the command line:
+
+```
+python --version
+```
+That command should print something like ``` Python 3.10.7 ``` to the console
+
+## Install Python Libraries
+
+You'll use several add-on libraries alongside Python. These libraries are comparable to Express.js and Sequelize. But you won't install them globally on your machine, because dependency versions can change from project to project.
+
+## Create a Virtual Environment
+
+Python provides a feature called a virtual environment—a self-contained directory that maintains its own version of Python and its own library dependencies. This way, multiple Python projects can reside on the same machine without interfering with each other.
+
+In the root directory of your ``` python-newsfeed project ```, run the following command:
+
+``` python -m venv venv ```
+
+The ```python -m venv ``` command (or ``` python3 -m venv ```, if your computer requires it) uses Python's built-in ``` venv ``` module to create a new directory. 
+
+In this case, the new directory is also called venv. The venv directory holds all the files that make a virtual environment possible.
+
+In VS Code, you can expand the ``` venv ``` directory to see what it contains, as shown in the following image
+
+![image](https://user-images.githubusercontent.com/109435666/235469899-20455c92-732a-46c8-a4fc-7e1d74ff6a82.png)
+
+
