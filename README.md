@@ -23,3 +23,34 @@ Next, navigate to the
 ![Python download page](https://www.python.org/downloads/) in your browser and select the download button for the latest version, as the following image show
 
 ![Screenshot 2023-05-01 Python download](https://user-images.githubusercontent.com/109435666/235461997-6ebc2427-b4d3-4b71-82e9-42f7035af87f.png)
+
+Run the installer after the download finishes. You should see the following image:
+
+![image](https://user-images.githubusercontent.com/109435666/235464310-b8e853ff-c966-40b9-99ef-ddf59bd18af6.png)
+
+Make sure to check "Add Python 3.x to PATH" before selecting "Install Now". Then let the installer run through its steps and close it out.
+
+## Usage
+
+Python, however, doesn't always work with Git Bash. For better results, use the Windows PowerShell command line instead.
+
+To open PowerShell, use the search box in the bottom-left corner of the screen to search for "powershell". The following image demonstrates what you should see:
+
+![image](https://user-images.githubusercontent.com/109435666/235464519-8fa7b951-2977-43dc-a4db-f2bb3146233f.png)
+
+Select "Windows PowerShell" and a new command line window will open. Run the following command in this new window:
+
+```
+python --version
+```
+
+In VS Code, press Ctrl+Shift+P to open the command prompt. Search for "terminal" in the prompt. The following image demonstrates what you should see:
+
+![Screenshot 2023-05-01 VS terminal](https://user-images.githubusercontent.com/109435666/235465234-52cb4a81-5650-4d37-bacd-ba2fffb2ea04.png)
+
+In the dropdown that appears, select "Terminal: Select Default Shell". This will give you a list of available terminals to choose from, including Windows PowerShell and Git Bash. The following image demonstrates what you should see:
+
+![Screenshot 2023-05-01 Command Prompt](https://user-images.githubusercontent.com/109435666/235465512-d41e83ee-5975-4489-8cf3-e9c5ffe328af.png)
+
+Select "Windows PowerShell". VS Code will now use PowerShell instead of Git Bash whenever you open the integrated terminal.
+
