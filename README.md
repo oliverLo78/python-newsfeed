@@ -57,3 +57,34 @@ Select "Windows PowerShell". VS Code will now use PowerShell instead of Git Bash
 ## Clone the Repo and Create Branches
 
 On your computer, clone the repository using ``` git clone ```
+
+Then use the ``` git checkout -b ``` command to create and switch to the ``` develop ``` branch
+
+so that you're not working directly in the ``` main ``` branch.  Once in the ``` develop ``` branch
+
+run ``` git checkout -b ``` again to create and switch to another branch called ``` feature/app-setup ```
+
+## Create a .gitignore File
+
+For this project, we'll generate many files that we won't need to commit, so the first thing to do on the new feature branch is create a ``` .gitignore ``` file.
+
+Open the ```.gitignore ``` file and add the following lines:
+
+```
+venv/
+.env
+
+*.pyc
+__pycache__/
+
+instance/
+
+.pytest_cache/
+.coverage
+htmlcov/
+
+dist/
+build/
+*.egg-info/
+
+```
