@@ -38,7 +38,7 @@ Install Python on Windows, if you have an older version installed you need to up
 Next, navigate to the 
 ![Python download page](https://www.python.org/downloads/) in your browser and select the download button for the latest version, as the following image show
 
-![2023-05-01 Python download](https://user-images.githubusercontent.com/109435666/235461997-6ebc2427-b4d3-4b71-82e9-42f7035af87f.png)
+![Screenhot 2023-05-01 Python download](https://user-images.githubusercontent.com/109435666/235461997-6ebc2427-b4d3-4b71-82e9-42f7035af87f.png)
 
 Run the installer after the download finishes. You should see the following image:
 
